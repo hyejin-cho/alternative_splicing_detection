@@ -1,0 +1,11 @@
+[info]
+readlen = 100
+genome = hg38
+[experiments]
+condition1_rep1 = bamfiles/ENCLB041ZZZAligned.sortedByCoord.out.bam
+condition1_rep2 = bamfiles/ENCLB042ZZZAligned.sortedByCoord.out.bam
+condition2_rep1 = bamfiles/ENCLB045ZZZAligned.sortedByCoord.out.bam
+condition2_rep2 = bamfiles/ENCLB046ZZZAligned.sortedByCoord.out.bam
+[groups]
+condition1 = condition1_rep1,condition1_rep2
+condition2 = condition2_rep1,condition2_rep2
